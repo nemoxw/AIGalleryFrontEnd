@@ -1,0 +1,40 @@
+.movieRow {
+    margin-top:15px;
+}
+
+.card {
+    margin-top:15px;
+}
+
+.moviesListCard {
+    width: 18rem;
+}
+
+div.poster {
+    margin: 10px;
+}
+
+.smallPoster {
+    user-select: none;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.star {
+    width: 32.5em;
+    height: 4em;
+    filter: drop-shadow(2px 4px 6px black);
+    /*The following code is added so that the star icon could be placed overlaid
+    on the top of the poster image at the upper right corner*/
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.starFill {
+    fill: yellow;
+}
+
+.starEmpty {
+    fill: white;
+}
